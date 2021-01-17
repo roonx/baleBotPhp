@@ -1,0 +1,32 @@
+{
+  "name": "roonx/bale-bot-api-php",
+  "keywords": [
+    "bale",
+    "bot",
+    "bale bot",
+    "بله",
+    "ربات بله",
+    "ساخت ربات بله"
+  ],
+  "homepage": "https://github.com/roonx/baleBotPhp",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alirezax5",
+      "homepage": "http://alirezax5.ir",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "balePhp\\": "src/",
+      "balePhp\\Types\\": "src/Types",
+      "balePhp\\Traits\\": "src/Traits"
+    }
+  }
+}
